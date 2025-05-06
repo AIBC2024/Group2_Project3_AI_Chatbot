@@ -24,7 +24,7 @@ TBD
 
 
 ## File(s) to Run
-TBD (pickled file)
+TBD (keras file)
 
 
 ## Summary of the Final Analysis
