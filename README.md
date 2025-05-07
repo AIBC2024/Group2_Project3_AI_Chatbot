@@ -9,14 +9,14 @@ To develop an AI-powered tool that integrates symptom input and MRI image analys
 
 
 ## Technologies, Libraries and Data References
-Dotenv
-Numpy
-Matplotlib
-Tensorflow
-Sklearn
-Seaborn
-ChatGoogleGenerativeAI
-Gemini 2.0
+* Dotenv
+* Numpy
+* Matplotlib
+* Tensorflow
+* Sklearn
+* Seaborn
+* ChatGoogleGenerativeAI
+* Gemini 2.0
 
 
 ## Activities
@@ -24,7 +24,11 @@ TBD
 
 
 ## File(s) to Run
-TBD (keras file)
+* [MRI_dementia_classification_load_model.ipynb] (https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/MRI_dementia_classification_load_model.ipynb) This Jupyter notebook file loads the presaved model (.keras) to run on the test data to verify F1 accuracy scores, as well as to load the .pkl files into the history to plot the accuracy curves.
+* Keras files are too big to upload, please go to [Dropbox shared folder](https://www.dropbox.com/scl/fo/mmtv94e8t4u9x7vgvqwvw/AEigp2bJ9nK4hC_juE2aVkY?rlkey=5s76fv2w7303kxymyccdinx0h&dl=0) This folder stores the .keras and the .pkl files
+* [ai_chatbot_dementia_case.ipynb] (https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/ai_chatbot_dementia_case.ipynb) This Jupyter notebook file shows a simple AI chatbot using Gradio where user can input patient's diagnostic, then the AI bot will determine if the patient has a mild, moderate, or severe dementia, or no dementia at all
+
+
 
 
 ## Summary of the Final Analysis
