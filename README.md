@@ -3,6 +3,8 @@
 ## Overview
 This project aims to assist in the early detection of dementia by combining user-reported symptoms with MRI brain scan analysis. Users begin by entering a series of cognitive and behavioral symptoms, which help inform the diagnostic process. The MRI image is then processed by an image recognition model trained to identify patterns associated with dementia. Based on this analysis, the system assesses the presence and severity of the condition, offering a data-driven aid for medical evaluation. 
 
+DISCLAIMER: this tool is assistive only, it is an AI Bootcamp final group project, it is not to replace a doctor’s or clinical diagnosis.
+
 
 ## Objective
 To develop an AI-powered tool that integrates symptom input and MRI image analysis to detect the presence and severity of dementia, supporting early diagnosis and enhancing clinical decision-making.
