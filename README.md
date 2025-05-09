@@ -24,9 +24,14 @@ TBD
 
 
 ## File(s) to Run
-* [MRI_dementia_classification_load_model.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/MRI_dementia_classification_load_model.ipynb). This Jupyter notebook file loads the pre-saved model (.keras) to run on the test data to verify F1 accuracy scores, as well as to load the .pkl files into the history to plot the accuracy curves.
-* Keras files are too big to upload into GitHub, please go to [Dropbox shared folder](https://www.dropbox.com/scl/fo/mmtv94e8t4u9x7vgvqwvw/AEigp2bJ9nK4hC_juE2aVkY?rlkey=5s76fv2w7303kxymyccdinx0h&dl=0). This folder stores the .keras and the .pkl files. You have to download those Dropbox files and place them in a folder called "saved_models" before you can run the [MRI_dementia_classification_load_model.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/MRI_dementia_classification_load_model.ipynb).
-* [ai_chatbot_dementia_case.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/ai_chatbot_dementia_case.ipynb). This Jupyter notebook file shows a simple AI chatbot using Gradio where user can input patient's diagnostic, then the AI bot will determine if the patient has a mild, moderate, or severe dementia, or no dementia at all.
+
+1.  [MRI_dementia_classification_load_model.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/MRI_dementia_classification_load_model.ipynb). This Jupyter notebook file loads the pre-saved model (.keras) to run on the test data to verify F1 accuracy scores, as well as to load the .pkl files into the history to plot the accuracy curves.
+   
+2.  Keras files are too big to upload into GitHub, please go to [Dropbox shared folder](https://www.dropbox.com/scl/fo/mmtv94e8t4u9x7vgvqwvw/AEigp2bJ9nK4hC_juE2aVkY?rlkey=5s76fv2w7303kxymyccdinx0h&dl=0). This folder stores the .keras and the .pkl files. You have to download those Dropbox files and place them in a folder called "saved_models" before you can run the [MRI_dementia_classification_load_model.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/MRI_dementia_classification_load_model.ipynb).
+ 
+3. [MRI_dementia_classification_CNN.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/MRI_dementia_classification_CNN.ipynb). This Jupyter notebook file loads the three models (.keras) to run on the test data to get better F1 accuracy scores, as well as to load the .pkl files into the history to plot the accuracy curves.
+   
+4. [ai_chatbot_dementia_case.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/ai_chatbot_dementia_case.ipynb). This Jupyter notebook file shows a simple AI chatbot using Gradio where user can input patient's diagnostic, then the AI bot will determine if the patient has a mild, moderate, or severe dementia, or no dementia at all.
 
 
 

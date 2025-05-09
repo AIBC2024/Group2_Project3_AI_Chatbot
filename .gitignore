@@ -8,6 +8,7 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+.gradio
 
 # Icon must end with two \r
 Icon
@@ -76,3 +77,4 @@ xcuserdata/
 
 # Ignore folder 
 saved_models/
+.gradio/flagged/dataset1.csv
