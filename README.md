@@ -53,3 +53,8 @@ TBD
 ## Google Slide Deck Presentation
 [Group presentation link](https://docs.google.com/presentation/d/11-YDMJ-GvNs3TQDsUWVUkeZt1o0UBaijmDvD_Gnt2As/edit?usp=sharing)
 
+
+
+## Refernces
+https://www.kaggle.com/datasets/matthewhema/mri-dementia-augmentation-no-data-leak
+
