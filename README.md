@@ -34,11 +34,11 @@ To develop an AI-powered tool that integrates symptom input and MRI image analys
    * dementia_cnn_sequential_1_history_V5.pkl (this file is approximately 450 bytes)
    * dementia_cnn_sequential_1_model_V5.keras (this file is approximately 270MB)
  
-4. [MRI_dementia_classification_CNN.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/MRI_dementia_classification_CNN.ipynb). This Jupyter notebook file loads the three models (.keras) to run on the test data to get better F1 accuracy scores, as well as to load the .pkl files into the history to plot the accuracy curves.
+3. [MRI_dementia_classification_CNN.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/MRI_dementia_classification_CNN.ipynb). This Jupyter notebook file loads the three models (.keras) to run on the test data to get better F1 accuracy scores, as well as to load the .pkl files into the history to plot the accuracy curves.
    
-5. [ai_chatbot_dementia_case.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/ai_chatbot_dementia_case.ipynb). This Jupyter notebook file shows a simple AI chatbot using Gradio where user can input patient's diagnostic, then the AI bot will determine if the patient has a very mild, mild, moderate, or no dementia at all.
+4. [ai_chatbot_dementia_case.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/ai_chatbot_dementia_case.ipynb). This Jupyter notebook file shows a simple AI chatbot using Gradio where user can input patient's diagnostic, then the AI bot will determine if the patient has a very mild, mild, moderate, or no dementia at all.
 
-6. [AI_Symptom_Gemini_Classifier.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/AI_Symptom_Gemini_Classifier.ipynb). This Jupyter notebook file shows a more advanced AI chatbot using Gradio where user can upload an MRI image of the brain and enter some diagnostic. The AI bot will determine if the patient has a very mild, mild, moderate, or no dementia at all.
+5. [AI_Symptom_Gemini_Classifier.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/AI_Symptom_Gemini_Classifier.ipynb). This Jupyter notebook file shows a more advanced AI chatbot using Gradio where user can upload an MRI image of the brain and enter some diagnostic. The AI bot will determine if the patient has a very mild, mild, moderate, or no dementia at all.
 
 
 ## Summary of the Final Analysis
