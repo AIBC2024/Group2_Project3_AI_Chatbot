@@ -78,3 +78,5 @@ xcuserdata/
 # Ignore folder 
 saved_models/
 .gradio/flagged/dataset1.csv
+data_split_trainTestVal/
+
