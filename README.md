@@ -30,9 +30,9 @@ To develop an AI-powered tool that integrates symptom input and MRI image analys
    
 Keras files are too big to upload into GitHub, please go to [Dropbox shared folder](https://www.dropbox.com/scl/fo/mmtv94e8t4u9x7vgvqwvw/AEigp2bJ9nK4hC_juE2aVkY?rlkey=5s76fv2w7303kxymyccdinx0h&dl=0). This folder stores the .keras and the .pkl files. You have to download those Dropbox files and place them in a folder called "saved_models" before you can run the [MRI_dementia_classification_load_model.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/MRI_dementia_classification_load_model.ipynb). 
 
-**Note:** use the V5 .keras and .pkl files for the latest version you want to put in your local "saved_models" folder:
-   * dementia_cnn_sequential_1_history_V5.pkl (this file is approximately 450 bytes)
-   * dementia_cnn_sequential_1_model_V5.keras (this file is approximately 270MB)
+**Note:** use the V10 .keras and .pkl files for the latest version you want to put in your local "saved_models" folder:
+   * dementia_cnn_sequential_history_V10.pkl (this file is approximately 450 bytes)
+   * dementia_cnn_sequential_model_V10.keras (this file is approximately 350MB)
  
 2. [MRI_dementia_classification_load_model.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/MRI_dementia_classification_load_model.ipynb). This Jupyter notebook file loads the pre-saved model (.keras) from step 1 and the history file to reproduce and verify F1 accuracy scores, as well as to load the .pkl file into the history to plot the accuracy curves.
    
@@ -59,5 +59,6 @@ TBD
 
 
 ## References
-[Kaggle Source For Dataset](https://www.kaggle.com/datasets/matthewhema/mri-dementia-augmentation-no-data-leak)
+1. [Kaggle Source For Dataset - source file 1](https://www.kaggle.com/datasets/matthewhema/mri-dementia-augmentation-no-data-leak)
+2. [Kaggle Source For Dataset - source file 2](https://www.kaggle.com/datasets/uraninjo/augmented-alzheimer-mri-dataset)
 
