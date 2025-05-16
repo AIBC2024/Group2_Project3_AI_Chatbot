@@ -42,7 +42,7 @@ Keras files are too big to upload into GitHub, please go to [Dropbox shared fold
 
 
 ## Summary of the Final Analysis
-TBD
+**Note:** [MRI_dementia_classification_RESNET_model.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/MRI_dementia_classification_RESNET_model.ipynb). We tried using a Resnet model approach and recieved worse results, with an F1 score of 0.28.
 
 
 ## Team Members
