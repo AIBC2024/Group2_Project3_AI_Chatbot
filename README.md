@@ -36,9 +36,11 @@ Keras files are too big to upload into GitHub, please go to [Dropbox shared fold
  
 2. [MRI_dementia_classification_load_model.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/MRI_dementia_classification_load_model.ipynb). This Jupyter notebook file loads the pre-saved model (.keras) from step 1 and the history file to reproduce and verify F1 accuracy scores, as well as to load the .pkl file into the history to plot the accuracy curves.
    
-3. [ai_chatbot_dementia_case.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/ai_chatbot_dementia_case.ipynb). This Jupyter notebook file shows a **simple AI** chatbot using Gradio where user can input patient's diagnostic, then the AI bot will determine if the patient has a very mild, mild, moderate, or no dementia at all.
+3. [ai_chatbot_dementia_case.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/ai_chatbot_dementia_case.ipynb). This Jupyter notebook file shows a **simple AI chatbot** using Gradio where user can input patient's diagnostic, then the AI bot will determine if the patient has a very mild, mild, moderate, or no dementia at all.
 
-4. [AI_Symptom_Gemini_Classifier_Fixed_With_Gemini_Functions.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/AI_Symptom_Gemini_Classifier_Fixed_With_Gemini_Functions.ipynb). This Jupyter notebook file shows a more advanced AI chatbot using Gradio where user can upload an MRI image of the brain and enter some diagnostic. The AI bot will determine if the patient has a very mild, mild, moderate, or no dementia at all.
+4. [AI_Symptom_Gemini_Classifier_Fixed_With_Gemini_Functions.ipynb](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/blob/main/AI_Symptom_Gemini_Classifier_Fixed_With_Gemini_Functions.ipynb). This Jupyter notebook file shows a **more advanced AI chatbot** using Gradio where user can upload an MRI image of the brain and enter some diagnostic. The AI bot will determine if the patient has a very mild, mild, moderate, or no dementia at all. You can use the provided file in the Github folder called [MRI_image_samples_for_chatbot_demo](https://github.com/AIBC2024/Group2_Project3_AI_Chatbot/tree/main/MRI_image_samples_for_chatbot_demo). 
+
+**Note:** as mentioned in the presentation file, we use a multi-modal diagnostic approach by combining MRI brain scan analysis (60% weighting) with symptom text analysis (40% weighting) to provide a comprehensive dementia classification. In addition of using the pre-trained MRI image to acknowledge the test MRI image, our system includes an advanced AI language model called BERT that reads and understands the clinician's notes about the patient. It analyzes not just specific keywords, but the overall tone and context of the description. If descriptions contain negative language patterns that often correlate with cognitive decline, it increases the probability of a dementia diagnosis. This provides a complementary perspective to both our image analysis and our rule-based symptom matching, creating a more comprehensive assessment system that mimics how healthcare professionals evaluate patients from multiple angles.
 
 
 ## Summary of the Model Analysis - CNN V2
@@ -46,7 +48,7 @@ CNN Model V2 was found to be the best peforming with an accuracy of 0.87 and F1 
 
 ![Confusion Matrix - CNN Model V2](/CNN_model_notebook_figures/confusion-matrix-V2.png "Confusion Matrix - CNN Model V2")
 
-### Classifcation Report - CNN Model V2
+### Classification Report - CNN Model V2
 ![Classifcation Report - CNN Model V2](/CNN_model_notebook_figures/classification-report-V2.png "Classifcation Report - CNN Model V2")
 
 ![Model Accuracy - CNN Model V2](/CNN_model_notebook_figures/model-accuracy-V2.png "Model Accuracy - CNN Model V2")
