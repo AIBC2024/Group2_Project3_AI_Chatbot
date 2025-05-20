@@ -55,6 +55,10 @@ CNN Model V2 was found to be the best peforming with an accuracy of 0.87 and F1 
 
 ![Model Loss - CNN Model V2](/CNN_model_notebook_figures/model-loss-V2.png "Model Loss - CNN Model V2")
 
+### Model Version History
+The following table shows the various models iterated through and their Accuracy and F1 Scores after various trials of fine tuning and parameter testing. 
+
+![Model History](/CNN_model_notebook_figures/model-history.png "Model History")
 
 ## Team Members
 1. [Ingrid Blankevoort](https://github.com/AIBC2024)
